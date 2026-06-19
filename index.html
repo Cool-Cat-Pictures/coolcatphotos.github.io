@@ -2,9 +2,38 @@
 <html>
 <head>
   <title>My Photo Site</title>
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+    }
+
+    .folder {
+      display: inline-block;
+      margin: 15px;
+      padding: 20px;
+      background: #222;
+      border-radius: 12px;
+      width: 160px;
+      text-decoration: none;
+      color: white;
+    }
+
+    .folder:hover {
+      background: #333;
+    }
+  </style>
 </head>
 <body>
+
   <h1>📸 My Photography</h1>
-  <p>Welcome to my photo collection.</p>
+  <p>Welcome to my photo collection. Pick a folder.</p>
+
+  <a class="folder" href="phone.html">📱 Phone</a>
+  <a class="folder" href="camera.html">📷 Camera</a>
+  <a class="folder" href="street.html">🌆 Street</a>
+
 </body>
 </html>
